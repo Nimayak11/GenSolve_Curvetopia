@@ -13,17 +13,3 @@ def test(image_path):
     plt.savefig('static/output_completion.png')
     plt.close()
 
-# # Read and preprocess the image
-# image = plt.imread('occlusion1.png')
-# image_filled = fill_shapes(image)
-
-# # Detect ellipses
-# ellipses = findEllipse(image_filled)
-
-# # Optionally overlay and plot ellipses
-# image_with_ellipses = overlay(image_filled, ellipses)
-# image_with_ellipses = plotEllipse(image_with_ellipses, ellipses)
-
-# # Display or save the result
-# plt.imshow(image_with_ellipses, cmap='gray')
-# plt.show()
