@@ -90,16 +90,16 @@ def process():
     
     if choice == "Isolated":
         process_single_image(image_path)
-        result_image_path = 'static\shapes_detected.png'
+        result_image_path = 'static/shapes_detected.png'
     elif choice == "Fragmented":
         process_single_image_frag(image_path)
-        result_image_path = 'static\Shape_Detection.png'
+        result_image_path = 'static/Shape_Detection.png'
     elif choice == "Occluded Shape Contours":
         occlusion(image_path)
-        result_image_path = 'static\occlusion_result.png'
+        result_image_path = 'static/occlusion_result.png'
     elif choice == "Occluded Ellipse Completion":
         test(image_path)
-        result_image_path = 'static\output_completion.png'
+        result_image_path = 'static/output_completion.png'
     else:
         return "Invalid input", 400
 
