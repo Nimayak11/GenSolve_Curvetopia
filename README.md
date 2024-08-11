@@ -14,7 +14,7 @@ The occlusion function processes an image to detect red regions by applying colo
 
 ### How to use the code??:
 
-To run locally and to view the symmetries found you'll need to download the files of the repository and then run the Adobe_main python file.<br/>
+To run locally and to view the symmetries detected, you'll need to download the files of the repository and then run the Adobe_main python file.<br/>
 
 Otherwise you can directly use the website.<br/><br/>
 For demo, input from the images folder yield the optimal output but you can also run the codes on any other file of your choice.
